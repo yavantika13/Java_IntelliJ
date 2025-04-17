@@ -6,7 +6,7 @@ public class xyz {
 
                 System.out.print(" ");
             }
-            for (int k=i; k >= i; k--) {
+            for (int k=i; k >=i; k--) {
                 System.out.print("*");
             }
             for (int p=i; p>i; p--) {
