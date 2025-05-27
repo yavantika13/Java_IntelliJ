@@ -1,12 +1,12 @@
-import java.util.ArrayList;
-
+//import java.util.ArrayList;
+import java.util.LinkedList;
 public class Col {
     public static void main(String[] args) {
-        int [] arr={2,-7,0,5,6,-3,0,1};
-        int sum=0;
-        //ArrayList<String> arr= new ArrayList<>();
-
-
-
-    }
-}
+        LinkedList<Integer> arr=new LinkedList<>();
+       long start=System.nanoTime();
+       arr.add(5);
+       System.out.println(arr.contains(5));
+       long end=System.nanoTime();
+        System.out.println(end-start);
+       }
+          }

@@ -15,6 +15,6 @@ public class Neww
         System.out.println(arr);
         System.out.println(arr.get(1));
         System.out.println(arr.remove(0));
-       // System.out.println(arr.set());
+       // System.out.println(arr.set());g
     }
 }
